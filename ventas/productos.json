@@ -1,0 +1,44 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "PC Gamer Pro",
+      "descripcion": "RTX 4070 · Ryzen 7 · 32GB RAM · SSD 1TB",
+      "precio": 1850000,
+      "imagen": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?w=400",
+      "stock": true
+    },
+    {
+      "id": 2,
+      "nombre": "Notebook Ultra",
+      "descripcion": "Intel i5 · 16GB RAM · SSD 512GB · 14\"",
+      "precio": 950000,
+      "imagen": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400",
+      "stock": true
+    },
+    {
+      "id": 3,
+      "nombre": "PC Oficina",
+      "descripcion": "Intel i3 · 8GB RAM · SSD 256GB · Windows 11",
+      "precio": 480000,
+      "imagen": "https://images.unsplash.com/photo-1547082299-de196ea013d6?w=400",
+      "stock": false
+    },
+    {
+      "id": 4,
+      "nombre": "Workstation Elite",
+      "descripcion": "RTX 4090 · Intel i9 · 64GB RAM · SSD 2TB",
+      "precio": 3200000,
+      "imagen": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400",
+      "stock": false
+    },
+    {
+      "id": 5,
+      "nombre": "Mini PC Compact",
+      "descripcion": "Intel N100 · 16GB RAM · SSD 512GB",
+      "precio": 380000,
+      "imagen": "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=400",
+      "stock": true
+    }
+  ]
+}

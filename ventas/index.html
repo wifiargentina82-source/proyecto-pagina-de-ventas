@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Skynet@rg — Micro emprendimiento dedicado a la venta de computadoras accesibles y de calidad. Trabajamos con equipos a consignación para mantener stock permanente.">
+    <title>Skynet@rg | Venta de Computadoras</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ================= BANNER EN CONSTRUCCIÓN ================= -->
+    <div class="banner-construccion" id="banner-construccion">
+        <div class="banner-contenido">
+            <span class="banner-icono">🚧</span>
+            <p>
+                <strong>Sitio en construcción</strong> — Estamos trabajando para traerte la mejor experiencia.
+                Algunas secciones pueden estar en desarrollo. ¡Volvé pronto! ⚡
+            </p>
+        </div>
+        <button class="banner-cerrar" id="banner-cerrar" aria-label="Cerrar aviso">✕</button>
+    </div>
+
+    <!-- ================= HEADER ================= -->
+    <header class="header">
+        <div class="logo">
+            <span class="logo-icon">⚡</span>
+            <h1>Skynet<span>@rg</span></h1>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#beneficios">Beneficios</a></li>
+                <li><a href="#consignacion">Consignación</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <a href="#productos" class="btn-carrito">
+            🛒 Carrito <span id="contador-carrito">0</span>
+        </a>
+    </header>
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <span class="hero-tag">💻 Tecnología accesible para todos</span>
+            <h2>Potencia tu mundo con <span>Skynet@rg</span></h2>
+            <p>Las mejores computadoras gamer, de oficina y profesionales al mejor precio. Envíos a todo el país y equipos a consignación.</p>
+            <div class="hero-buttons">
+                <a href="#productos" class="btn btn-primary">Ver Productos</a>
+                <a href="#nosotros" class="btn btn-secondary">Conocenos</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=600" alt="Computadora Gamer">
+        </div>
+    </section>
+
+    <!-- ================= ESTADÍSTICAS ================= -->
+    <section class="stats">
+        <div class="stats-grid">
+            <div class="stat">
+                <h3 class="stat-numero" data-target="500">0</h3>
+                <p>Equipos vendidos</p>
+            </div>
+            <div class="stat">
+                <h3 class="stat-numero" data-target="98">0</h3>
+                <p>% Clientes satisfechos</p>
+            </div>
+            <div class="stat">
+                <h3 class="stat-numero" data-target="50">0</h3>
+                <p>Equipos en consignación</p>
+            </div>
+            <div class="stat">
+                <h3 class="stat-numero" data-target="2">0</h3>
+                <p>Años en el mercado</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= QUIÉNES SOMOS ================= -->
+    <section class="nosotros" id="nosotros">
+        <h2 class="section-title">Quiénes <span>Somos</span></h2>
+
+        <div class="nosotros-contenido">
+            <div class="nosotros-texto">
+                <h3>Un micro emprendimiento con una gran misión 💡</h3>
+                <p>
+                    <strong>Skynet@rg</strong> nació como un proyecto familiar con una idea clara:
+                    <em>que nadie se quede sin acceso a la tecnología</em>. Somos un micro emprendimiento
+                    argentino dedicado a la venta de computadoras <strong>accesibles y de calidad</strong>,
+                    pensadas para que cada familia, estudiante o profesional pueda tener una computadora en casa.
+                </p>
+                <p>
+                    Entendemos que la tecnología dejó de ser un lujo para convertirse en una necesidad.
+                    Por eso trabajamos con <strong>precios justos, asesoramiento personalizado</strong> y
+                    equipos revisados y garantizados, para que comprar una PC sea una experiencia simple y confiable.
+                </p>
+
+                <div class="nosotros-valores">
+                    <div class="valor">
+                        <span class="valor-icono">🎯</span>
+                        <h4>Accesibilidad</h4>
+                        <p>Precios pensados para el bolsillo de todos.</p>
+                    </div>
+                    <div class="valor">
+                        <span class="valor-icono">✅</span>
+                        <h4>Calidad</h4>
+                        <p>Cada equipo es testeado antes de la entrega.</p>
+                    </div>
+                    <div class="valor">
+                        <span class="valor-icono">🤝</span>
+                        <h4>Confianza</h4>
+                        <p>Asesoramiento honesto y sin vueltas.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nosotros-imagen">
+                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600" alt="Equipo de trabajo Skynet@rg">
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= CONSIGNACIÓN ================= -->
+    <section class="consignacion" id="consignacion">
+        <h2 class="section-title">Trabajamos con <span>Equipos a Consignación</span></h2>
+
+        <div class="consignacion-grid">
+            <div class="consignacion-card">
+                <div class="consignacion-icono">🔁</div>
+                <h3>Stock Permanente</h3>
+                <p>
+                    Gracias a nuestra red de consignaciones, siempre contamos con equipos
+                    disponibles. No esperás semanas: <strong>lo que ves, lo tenés</strong>.
+                </p>
+            </div>
+
+            <div class="consignacion-card">
+                <div class="consignacion-icono">🏷️</div>
+                <h3>Precios Competitivos</h3>
+                <p>
+                    Este modelo nos permite ofrecer <strong>precios más bajos que la competencia</strong>
+                    sin sacrificar la calidad ni la garantía de cada equipo.
+                </p>
+            </div>
+
+            <div class="consignacion-card">
+                <div class="consignacion-icono">🔄</div>
+                <h3>Renovación Constante</h3>
+                <p>
+                    El catálogo se actualiza permanentemente con <strong>nuevos ingresos</strong>,
+                    para que siempre encuentres la PC que buscás.
+                </p>
+            </div>
+
+            <div class="consignacion-card destacado">
+                <div class="consignacion-icono">💼</div>
+                <h3>¿Tenés una PC para vender?</h3>
+                <p>
+                    Si querés vender tu computadora sin complicaciones, la tomamos
+                    <strong>en consignación</strong> y nos encargamos de todo el proceso:
+                </p>
+                <ol class="consignacion-lista">
+                    <li>🔍 <strong>Testeo completo</strong> de hardware y software</li>
+                    <li>🧹 <strong>Mantenimiento general</strong>: limpieza, pasta térmica y optimización</li>
+                    <li>📸 <strong>Publicación profesional</strong> con fotos y descripción detallada</li>
+                    <li>🤝 <strong>Gestión de venta</strong> y atención a los interesados</li>
+                    <li>🚚 <strong>Entrega coordinada</strong> al comprador</li>
+                    <li>💰 <strong>Vos solo cobrás</strong>, sin mover un dedo</li>
+                </ol>
+                <p class="consignacion-cierre">
+                    Nos ocupamos de que tu equipo llegue al mercado <strong>en óptimas condiciones</strong>,
+                    presentable y listo para vender al mejor precio.
+                </p>
+                <a href="#contacto" class="btn btn-primary btn-small">Sumar mi equipo</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= PROCESO (STEPS) ================= -->
+    <section class="proceso-consignacion">
+        <h2 class="section-title">Nuestro <span>Proceso</span></h2>
+        <p class="proceso-intro">
+            Un método claro y transparente, paso a paso, para que tanto vos
+            como el comprador tengan total confianza.
+        </p>
+
+        <div class="proceso-steps">
+
+            <div class="step">
+                <div class="step-icono">📦</div>
+                <span class="step-numero">01</span>
+                <h3>Recepción</h3>
+                <p>Coordinamos la entrega y evaluamos el estado general del equipo.</p>
+            </div>
+
+            <div class="step">
+                <div class="step-icono">🔍</div>
+                <span class="step-numero">02</span>
+                <h3>Testeo</h3>
+                <p>Verificamos hardware, software y rendimiento de cada componente.</p>
+            </div>
+
+            <div class="step">
+                <div class="step-icono">🧹</div>
+                <span class="step-numero">03</span>
+                <h3>Mantenimiento</h3>
+                <p>Limpieza profunda, pasta térmica nueva y optimización del sistema.</p>
+            </div>
+
+            <div class="step">
+                <div class="step-icono">📸</div>
+                <span class="step-numero">04</span>
+                <h3>Publicación</h3>
+                <p>Fotos profesionales, descripción detallada y precio justo de mercado.</p>
+            </div>
+
+            <div class="step">
+                <div class="step-icono">🤝</div>
+                <span class="step-numero">05</span>
+                <h3>Venta</h3>
+                <p>Nos ocupamos de la atención al comprador, el cierre y la logística.</p>
+            </div>
+
+            <div class="step">
+                <div class="step-icono">💰</div>
+                <span class="step-numero">06</span>
+                <h3>Vos cobrás</h3>
+                <p>Recibís tu pago sin preocuparte por nada. Simple y transparente.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================= VISIÓN A FUTURO ================= -->
+    <section class="futuro">
+        <div class="futuro-contenido">
+            <span class="futuro-tag">🚀 Nuestros objetivos</span>
+            <h2 class="section-title">Nuestra <span>Visión a Futuro</span></h2>
+            <p class="futuro-intro">
+                No queremos quedarnos quietos. Nuestro objetivo es claro:
+                <strong>llevar tecnología accesible a cada rincón del Gran Buenos Aires</strong>.
+            </p>
+
+            <div class="futuro-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-punto"></div>
+                    <div class="timeline-contenido">
+                        <span class="timeline-año">2025</span>
+                        <h3>Consolidación local</h3>
+                        <p>Afianzarnos en nuestra zona con un catálogo sólido y stock permanente.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-punto"></div>
+                    <div class="timeline-contenido">
+                        <span class="timeline-año">2026</span>
+                        <h3>Expansión zonal</h3>
+                        <p>Abrir puntos de entrega y retiro en distintos partidos del GBA.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-punto"></div>
+                    <div class="timeline-contenido">
+                        <span class="timeline-año">2027</span>
+                        <h3>Red de consignatarios</h3>
+                        <p>Crear una red de partners que trabajen con nosotros en toda la provincia.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-punto"></div>
+                    <div class="timeline-contenido">
+                        <span class="timeline-año">Futuro</span>
+                        <h3>Tienda online + sucursales</h3>
+                        <p>Combinar el comercio digital con presencia física en varias localidades.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= PRODUCTOS ================= -->
+    <section class="productos" id="productos">
+        <h2 class="section-title">Nuestros <span>Productos</span></h2>
+
+        <div class="filtros">
+            <button class="filtro activo" data-filtro="todos">Todos</button>
+            <button class="filtro" data-filtro="disponibles">Disponibles</button>
+            <button class="filtro" data-filtro="agotados">Agotados</button>
+        </div>
+
+        <div class="grid-productos" id="grid-productos">
+            <p class="cargando">⏳ Cargando productos...</p>
+        </div>
+    </section>
+
+    <!-- ================= BENEFICIOS ================= -->
+    <section class="beneficios" id="beneficios">
+        <h2 class="section-title">¿Por qué <span>elegirnos</span>?</h2>
+        <div class="grid-beneficios">
+            <div class="beneficio">
+                <div class="icono">🚚</div>
+                <h3>Envío Gratis</h3>
+                <p>En compras superiores a $500.000</p>
+            </div>
+            <div class="beneficio">
+                <div class="icono">🛡️</div>
+                <h3>Garantía 2 Años</h3>
+                <p>Todos nuestros equipos tienen garantía oficial</p>
+            </div>
+            <div class="beneficio">
+                <div class="icono">💳</div>
+                <h3>Cuotas Sin Interés</h3>
+                <p>Hasta 12 cuotas con tarjetas seleccionadas</p>
+            </div>
+            <div class="beneficio">
+                <div class="icono">🔧</div>
+                <h3>Soporte Técnico</h3>
+                <p>Asistencia personalizada 24/7</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= CONTACTO ================= -->
+    <section class="contacto" id="contacto">
+        <h2 class="section-title">Contacta<span>nos</span></h2>
+        <p class="contacto-intro">
+            ¿Buscás una PC? ¿Querés sumar tu equipo a consignación? ¿Tenés alguna consulta?
+            Escribinos y te respondemos a la brevedad. 💬
+        </p>
+
+        <form class="form-contacto" id="form-contacto">
+            <div class="form-row">
+                <input type="text" placeholder="Tu nombre" required>
+                <input type="email" placeholder="Tu email" required>
+            </div>
+            <input type="text" placeholder="Asunto (ej: Consulta por PC Gamer / Consignación)">
+            <textarea placeholder="Contanos qué necesitás..." rows="5" required></textarea>
+            <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+        </form>
+
+        <div class="contacto-datos">
+            <div class="dato">
+                <span>📍</span>
+                <p>Zona Sur — Gran Buenos Aires</p>
+            </div>
+            <div class="dato">
+                <span>📱</span>
+                <p>WhatsApp: +54 9 11 XXXX-XXXX</p>
+            </div>
+            <div class="dato">
+                <span>✉️</span>
+                <p>contacto@skynetarg.com</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <div class="footer-grid">
+
+            <div class="footer-col">
+                <div class="logo">
+                    <span class="logo-icon">⚡</span>
+                    <h1>Skynet<span>@rg</span></h1>
+                </div>
+                <p class="footer-desc">
+                    Micro emprendimiento dedicado a acercar la tecnología a cada hogar.
+                    Venta de computadoras accesibles y equipos a consignación.
+                </p>
+                <div class="footer-redes">
+                    <a href="#" title="Instagram">📷</a>
+                    <a href="#" title="Facebook">📘</a>
+                    <a href="#" title="WhatsApp">💬</a>
+                    <a href="#" title="Email">✉️</a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Navegación</h4>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#nosotros">Quiénes Somos</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#consignacion">Consignación</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Servicios</h4>
+                <ul>
+                    <li><a href="#productos">Venta de PCs</a></li>
+                    <li><a href="#consignacion">Equipos a consignación</a></li>
+                    <li><a href="#beneficios">Soporte técnico</a></li>
+                    <li><a href="#contacto">Asesoramiento</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Contacto</h4>
+                <ul>
+                    <li>📍 Gran Buenos Aires</li>
+                    <li>📱 +54 9 11 XXXX-XXXX</li>
+                    <li>✉️ contacto@skynetarg.com</li>
+                    <li>🕒 Lun a Sáb · 9 a 19 hs</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 <strong>Skynet@rg</strong> — Todos los derechos reservados.</p>
+            <p>Hecho con 💙 en Argentina</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
